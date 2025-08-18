@@ -2,39 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* SpeedNet Design System - Vermelho, Amarelo, Branco */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 13%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 13%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* SpeedNet Brand Colors */
+    --primary: 355 85% 50%; /* Vermelho vibrante */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 355 85% 65%;
+    --primary-dark: 355 85% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 95% 55%; /* Amarelo vibrante */
+    --secondary-foreground: 0 0% 13%;
+    --secondary-light: 45 95% 70%;
+    --secondary-dark: 45 95% 40%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 355 85% 95%; /* Vermelho muito claro */
+    --accent-foreground: 355 85% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 97%;
+    --muted-foreground: 0 0% 45%;
+
+    /* Gradientes SpeedNet */
+    --gradient-primary: linear-gradient(135deg, hsl(355 85% 50%) 0%, hsl(355 85% 35%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(45 95% 55%) 0%, hsl(45 95% 40%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(355 85% 50%) 0%, hsl(45 95% 55%) 100%);
+    --gradient-speed: linear-gradient(90deg, hsl(355 85% 50%) 0%, hsl(45 95% 55%) 50%, hsl(355 85% 50%) 100%);
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 355 85% 50%;
 
     --radius: 0.5rem;
 
