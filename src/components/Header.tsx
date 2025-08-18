@@ -21,16 +21,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-primary text-primary-foreground p-2 rounded-lg">
-              <Wifi className="h-6 w-6" />
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                SpeedNet
-              </h1>
-              <p className="text-xs text-muted-foreground">Fibra Óptica</p>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/logo.png" 
+              alt="SpeedNet Fibra Óptica" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
