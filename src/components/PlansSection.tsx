@@ -16,6 +16,9 @@ const plans = [
       "Instalação gratuita",
       "Suporte técnico",
       "Ideal para 2-3 dispositivos"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Home,
     popular: false,
@@ -34,6 +37,9 @@ const plans = [
       "Suporte técnico prioritário",
       "Ideal para 4-6 dispositivos",
       "Streaming em 4K"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Users,
     popular: true,
@@ -51,7 +57,9 @@ const plans = [
       "Instalação gratuita",
       "Suporte técnico VIP",
       "Dispositivos ilimitados",
-      "Gaming e streaming premium"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Wifi,
     popular: false,
@@ -70,6 +78,9 @@ const plans = [
       "Suporte técnico 24/7",
       "SLA de 99,5%",
       "Backup de link opcional"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Building,
     popular: false,
@@ -88,6 +99,9 @@ const plans = [
       "Suporte técnico dedicado",
       "SLA de 99,8%",
       "Backup de link incluso"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Building,
     popular: true,
@@ -106,6 +120,9 @@ const plans = [
       "Gerente de conta dedicado",
       "SLA de 99,9%",
       "Redundância total"
+      "Livro digital"
+      "Áudio livro"
+      "JornalZ"
     ],
     icon: Building,
     popular: false,
