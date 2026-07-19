@@ -15,9 +15,9 @@ const plans = [
       "WiFi grátis incluído",
       "Instalação gratuita",
       "Suporte técnico",
-      "Ideal para 2-3 dispositivos"
-      "Livro digital"
-      "Áudio livro"
+      "Ideal para 2-3 dispositivos",
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Home,
@@ -36,9 +36,9 @@ const plans = [
       "Instalação gratuita",
       "Suporte técnico prioritário",
       "Ideal para 4-6 dispositivos",
-      "Streaming em 4K"
-      "Livro digital"
-      "Áudio livro"
+      "Streaming em 4K",
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Users,
@@ -57,8 +57,8 @@ const plans = [
       "Instalação gratuita",
       "Suporte técnico VIP",
       "Dispositivos ilimitados",
-      "Livro digital"
-      "Áudio livro"
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Wifi,
@@ -77,9 +77,9 @@ const plans = [
       "WiFi empresarial",
       "Suporte técnico 24/7",
       "SLA de 99,5%",
-      "Backup de link opcional"
-      "Livro digital"
-      "Áudio livro"
+      "Backup de link opcional",
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Building,
@@ -98,9 +98,9 @@ const plans = [
       "WiFi empresarial",
       "Suporte técnico dedicado",
       "SLA de 99,8%",
-      "Backup de link incluso"
-      "Livro digital"
-      "Áudio livro"
+      "Backup de link incluso",
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Building,
@@ -119,9 +119,9 @@ const plans = [
       "WiFi empresarial premium",
       "Gerente de conta dedicado",
       "SLA de 99,9%",
-      "Redundância total"
-      "Livro digital"
-      "Áudio livro"
+      "Redundância total",
+      "Livro digital",
+      "Áudio livro",
       "JornalZ"
     ],
     icon: Building,
